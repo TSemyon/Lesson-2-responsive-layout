@@ -1,0 +1,19 @@
+/* Clients */
+
+.clients {
+    padding: 58px 0 0
+}
+.clients__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.clients__item {
+    padding: 8px 15px;
+    flex: 0 1 16.6667%;
+    min-width: 140px;
+}
+.clients__items img {
+    max-width: 100%;
+}

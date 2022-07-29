@@ -1,0 +1,122 @@
+/* Footer */
+
+.footer__top {
+    background-color:#17213C;
+    padding: 50px 0;
+}
+
+.footer__row {
+    margin: 0px -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__column {
+    flex: 0 1 16.6667%;
+    padding: 0 15px;
+    min-height: 170px;
+ 
+}
+.footer__column:last-child {
+    flex: 0 1 33.334%;
+}
+.footer__label {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+}
+.menu-footer__item:not(:last-child) {
+    margin: 0 0 10px 0;
+}
+.menu-footer__link {
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.2px;
+}
+.footer__bottom {
+    padding: 25px 0;
+}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts-footer {
+    display: flex;
+    flex-direction: column;
+}
+.contacts-footer__item {
+    padding: 0 0 0 34px ;
+    line-height: 1.42;
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    color: #fff;
+}
+.contacts-footer__item:not(:last-child) {
+    margin: 0 0 10px 0;
+}
+.contacts-footer__item_phone {
+    background: url(/img/footer-block/1.svg) left no-repeat;
+}
+.contacts-footer__item_map {
+    background: url(/img/footer-block/2.svg) left no-repeat;
+}
+.contacts-footer__item_email {
+    background: url(/img/footer-block/3.svg) left no-repeat;
+}
+.footer__social {
+    display: flex;
+    align-items: flex-start;
+}
+.footer__copy {
+    padding: 0 20px 0 0;
+}
+.social__item {
+    padding: 0 0 0 20px;
+}
+
+
+@media (max-width: 992px) {
+    .footer__top {
+        padding: 25px 0;
+    }
+    .footer__column {
+        flex: 0 1 25%;
+        padding: 15px 15px;
+    }
+    .footer__column:last-child {
+        flex: 0 1 100%;
+    }
+}
+@media (max-width: 695px) {
+    .footer__top {
+        padding: 25px 0;
+    }
+    .footer__column {
+        flex: 0 1 50%;
+        padding: 15px 15px;
+    }
+    .footer__column:last-child {
+        flex: 0 1 100%;
+    }
+}
+@media (max-width: 585px) {
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__copy {
+        padding: 0 0 20px 0;
+    }
+}
+@media (max-width: 500px) {
+    .social__item {
+        padding: 0 0 0 10px;
+    }
+}

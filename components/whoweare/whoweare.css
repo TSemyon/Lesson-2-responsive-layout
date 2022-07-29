@@ -1,0 +1,114 @@
+/* WHO-WE-ARE ===================================================================== */
+
+.whoweare {
+    padding: 80px 0 130px 0;
+    background-color: #fff;
+}
+.whoweare__header {
+    margin: 0 0 100px 0;
+}
+.whoweare__body {
+    display: flex;
+    align-items: flex-start;
+}
+.whoweare__video {
+    flex: 0 1 53.53%;
+    position: relative;
+    padding: 0px 57.07% 42.25% 0px;
+}
+.whoweare__video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.whoweare__content {
+    flex: 1 1 auto;
+    padding: 20px 0 0 121px;
+}
+.whoweare__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.42;
+    letter-spacing: 0.2px;
+}
+.whoweare__title:not(:last-child) {
+    margin: 0 0 10px 0;
+}
+.whoweare__text {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.43;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.whoweare__items {
+    margin: 50px 0 0 0;
+}
+.item-whoweare {
+    display: flex;
+}
+.item-whoweare:not(:last-child) {
+    margin: 0 0 30px 0;
+}
+.item-whoweare__icon {
+    flex: 0 0 32px;
+}
+.item-whoweare__content {
+    flex: 1 1 auto;
+    padding: 0 0 0 20px;
+}
+.item-whoweare__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+}
+.item-whoweare__text {
+    font-weight: 600;
+    line-height: 1.71;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+
+@media (max-width: 1080px) {
+    .whoweare__content {
+        padding: 10px 0 0 60px;
+    }
+}
+@media (max-width: 992px) {
+    .whoweare__content {
+        padding: 10px 0 0 60px;
+    }
+}
+@media (max-width: 950px) {
+    .whoweare {
+        padding: 50px 0 50px 0;
+    }
+    .whoweare__content {
+        padding: 40px 0 0 0px;
+    }
+    .whoweare__body {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .whoweare__header {
+        margin: 0 0 30px 0;
+    }
+    .whoweare__title  {
+        font-size: 25px;
+    }
+    .whoweare__video {
+        flex: 0 1 53.53%;
+        position: relative;
+        padding: 0px 57.07% 55.26% 0px;
+    }
+}
+@media (max-width: 479px) {
+    .whoweare__content {
+        padding: 25px 0 0 0px;
+    }
+}
